@@ -680,7 +680,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV4BPVLCC7;
-				GCC_PREFIX_HEADER = /Users/mac/Desktop/TimingAlarm/TimingAlarm/Const/TimingAlarm.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TimingAlarm/Const/TimingAlarm.pch";
 				INFOPLIST_FILE = TimingAlarm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -700,7 +700,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV4BPVLCC7;
-				GCC_PREFIX_HEADER = /Users/mac/Desktop/TimingAlarm/TimingAlarm/Const/TimingAlarm.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TimingAlarm/Const/TimingAlarm.pch";
 				INFOPLIST_FILE = TimingAlarm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

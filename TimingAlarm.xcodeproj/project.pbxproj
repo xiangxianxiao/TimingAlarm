@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043D833F21255947006BA773 /* MyDateSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D833E21255947006BA773 /* MyDateSecurity.m */; };
+		043D834221256A66006BA773 /* MyCalendarManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D834021256A66006BA773 /* MyCalendarManage.m */; };
+		048442DA212C00D5005C4003 /* SleepCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048442D9212C00D5005C4003 /* SleepCycleView.m */; };
+		048442DC212C00DF005C4003 /* SleepCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048442DB212C00DF005C4003 /* SleepCycleView.xib */; };
+		048442E2212E9D1F005C4003 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048442E1212E9D1F005C4003 /* MyTabBarViewController.m */; };
+		048442E6212E9E90005C4003 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048442E3212E9E90005C4003 /* AlarmViewController.m */; };
+		048442E7212E9E90005C4003 /* AlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048442E5212E9E90005C4003 /* AlarmViewController.xib */; };
+		048442EA212E9F3F005C4003 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 048442E8212E9F3F005C4003 /* MyTabBar.m */; };
+		04844308212EB71B005C4003 /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04844300212EB71A005C4003 /* MyCalendar.m */; };
+		04844309212EB71B005C4003 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04844301212EB71A005C4003 /* MyCollectionViewCell.xib */; };
+		0484430A212EB71B005C4003 /* CalendarDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04844304212EB71A005C4003 /* CalendarDateView.m */; };
+		0484430B212EB71B005C4003 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04844306212EB71A005C4003 /* MyCollectionViewCell.m */; };
+		0484430C212EB71B005C4003 /* CalendarDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04844307212EB71A005C4003 /* CalendarDateView.xib */; };
+		04844310212EB723005C4003 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0484430D212EB723005C4003 /* MainViewController.xib */; };
+		04844311212EB723005C4003 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484430E212EB723005C4003 /* MainViewController.m */; };
+		04844315212EC189005C4003 /* ShowAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04844313212EC189005C4003 /* ShowAlarmViewController.m */; };
+		04844316212EC189005C4003 /* ShowAlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04844314212EC189005C4003 /* ShowAlarmViewController.xib */; };
+		048CB582211D31E400C96002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB581211D31E400C96002 /* AppDelegate.m */; };
+		048CB58A211D31E500C96002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048CB589211D31E500C96002 /* Assets.xcassets */; };
+		048CB58D211D31E500C96002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CB58B211D31E500C96002 /* LaunchScreen.storyboard */; };
+		048CB590211D31E500C96002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB58F211D31E500C96002 /* main.m */; };
+		048CB59A211D31E500C96002 /* TimingAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB599211D31E500C96002 /* TimingAlarmTests.m */; };
+		048CB5A5211D31E500C96002 /* TimingAlarmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB5A4211D31E500C96002 /* TimingAlarmUITests.m */; };
+		048CB5BD211D353200C96002 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB5BC211D353200C96002 /* BaseViewController.m */; };
+		048CB678211D84FF00C96002 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CB677211D84FF00C96002 /* NotificationCenter.framework */; };
+		048CB69B2124214C00C96002 /* AlarmAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB69A2124214C00C96002 /* AlarmAlterView.m */; };
+		048CB69D2124215600C96002 /* AlarmAlterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048CB69C2124215600C96002 /* AlarmAlterView.xib */; };
+		048CB6A1212427E200C96002 /* UIView+.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB6A0212427E200C96002 /* UIView+.m */; };
+		048CB6A4212433BF00C96002 /* CALayer+XibBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB6A3212433BF00C96002 /* CALayer+XibBorderColor.m */; };
+		04A74DF4212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A74DF2212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.m */; };
+		04A74DF5212FD3E200B6BC5D /* ShowAlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A74DF3212FD3E200B6BC5D /* ShowAlarmTableViewCell.xib */; };
+		04A74DF9212FD66700B6BC5D /* ShowAlarmOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A74DF7212FD66700B6BC5D /* ShowAlarmOneTableViewCell.m */; };
+		04A74DFA212FD66700B6BC5D /* ShowAlarmOneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A74DF8212FD66700B6BC5D /* ShowAlarmOneTableViewCell.xib */; };
+		04A74E06212FFDB900B6BC5D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A74E04212FFDB900B6BC5D /* DataModel.m */; };
+		04A74E07212FFDB900B6BC5D /* DataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A74E05212FFDB900B6BC5D /* DataSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048CB596211D31E500C96002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048CB575211D31E400C96002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048CB57C211D31E400C96002;
+			remoteInfo = TimingAlarm;
+		};
+		048CB5A1211D31E500C96002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048CB575211D31E400C96002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048CB57C211D31E400C96002;
+			remoteInfo = TimingAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043D833D21255947006BA773 /* MyDateSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDateSecurity.h; sourceTree = "<group>"; };
+		043D833E21255947006BA773 /* MyDateSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDateSecurity.m; sourceTree = "<group>"; };
+		043D834021256A66006BA773 /* MyCalendarManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendarManage.m; sourceTree = "<group>"; };
+		043D834121256A66006BA773 /* MyCalendarManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendarManage.h; sourceTree = "<group>"; };
+		048442D8212C00D5005C4003 /* SleepCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepCycleView.h; sourceTree = "<group>"; };
+		048442D9212C00D5005C4003 /* SleepCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepCycleView.m; sourceTree = "<group>"; };
+		048442DB212C00DF005C4003 /* SleepCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepCycleView.xib; sourceTree = "<group>"; };
+		048442E0212E9D1F005C4003 /* MyTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		048442E1212E9D1F005C4003 /* MyTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		048442E3212E9E90005C4003 /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		048442E4212E9E90005C4003 /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
+		048442E5212E9E90005C4003 /* AlarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmViewController.xib; sourceTree = "<group>"; };
+		048442E8212E9F3F005C4003 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		048442E9212E9F3F005C4003 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		04844300212EB71A005C4003 /* MyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendar.m; sourceTree = "<group>"; };
+		04844301212EB71A005C4003 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		04844302212EB71A005C4003 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		04844303212EB71A005C4003 /* CalendarDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDateView.h; sourceTree = "<group>"; };
+		04844304212EB71A005C4003 /* CalendarDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDateView.m; sourceTree = "<group>"; };
+		04844305212EB71A005C4003 /* MyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendar.h; sourceTree = "<group>"; };
+		04844306212EB71A005C4003 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		04844307212EB71A005C4003 /* CalendarDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarDateView.xib; sourceTree = "<group>"; };
+		0484430D212EB723005C4003 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0484430E212EB723005C4003 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0484430F212EB723005C4003 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04844312212EC189005C4003 /* ShowAlarmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAlarmViewController.h; sourceTree = "<group>"; };
+		04844313212EC189005C4003 /* ShowAlarmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAlarmViewController.m; sourceTree = "<group>"; };
+		04844314212EC189005C4003 /* ShowAlarmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowAlarmViewController.xib; sourceTree = "<group>"; };
+		048CB57D211D31E400C96002 /* TimingAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimingAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048CB580211D31E400C96002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048CB581211D31E400C96002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048CB589211D31E500C96002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048CB58C211D31E500C96002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048CB58E211D31E500C96002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048CB58F211D31E500C96002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048CB595211D31E500C96002 /* TimingAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimingAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048CB599211D31E500C96002 /* TimingAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingAlarmTests.m; sourceTree = "<group>"; };
+		048CB59B211D31E500C96002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048CB5A0211D31E500C96002 /* TimingAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimingAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048CB5A4211D31E500C96002 /* TimingAlarmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingAlarmUITests.m; sourceTree = "<group>"; };
+		048CB5A6211D31E500C96002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048CB5BB211D353200C96002 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		048CB5BC211D353200C96002 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		048CB674211D7B1800C96002 /* BaseConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseConst.h; sourceTree = "<group>"; };
+		048CB675211D7BEA00C96002 /* TimingAlarm.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimingAlarm.pch; sourceTree = "<group>"; };
+		048CB677211D84FF00C96002 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		048CB6992124214C00C96002 /* AlarmAlterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmAlterView.h; sourceTree = "<group>"; };
+		048CB69A2124214C00C96002 /* AlarmAlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmAlterView.m; sourceTree = "<group>"; };
+		048CB69C2124215600C96002 /* AlarmAlterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmAlterView.xib; sourceTree = "<group>"; };
+		048CB69F212427E200C96002 /* UIView+.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+.h"; sourceTree = "<group>"; };
+		048CB6A0212427E200C96002 /* UIView+.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+.m"; sourceTree = "<group>"; };
+		048CB6A2212433BF00C96002 /* CALayer+XibBorderColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+XibBorderColor.h"; sourceTree = "<group>"; };
+		048CB6A3212433BF00C96002 /* CALayer+XibBorderColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XibBorderColor.m"; sourceTree = "<group>"; };
+		04A74DF1212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAlarmTwoTableViewCell.h; sourceTree = "<group>"; };
+		04A74DF2212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAlarmTwoTableViewCell.m; sourceTree = "<group>"; };
+		04A74DF3212FD3E200B6BC5D /* ShowAlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowAlarmTableViewCell.xib; sourceTree = "<group>"; };
+		04A74DF6212FD66700B6BC5D /* ShowAlarmOneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAlarmOneTableViewCell.h; sourceTree = "<group>"; };
+		04A74DF7212FD66700B6BC5D /* ShowAlarmOneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAlarmOneTableViewCell.m; sourceTree = "<group>"; };
+		04A74DF8212FD66700B6BC5D /* ShowAlarmOneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowAlarmOneTableViewCell.xib; sourceTree = "<group>"; };
+		04A74E02212FFDB900B6BC5D /* DataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSingleton.h; sourceTree = "<group>"; };
+		04A74E03212FFDB900B6BC5D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		04A74E04212FFDB900B6BC5D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		04A74E05212FFDB900B6BC5D /* DataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048CB57A211D31E400C96002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048CB678211D84FF00C96002 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048CB592211D31E500C96002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048CB59D211D31E500C96002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048442EB212EB5A3005C4003 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				048442EC212EB5A3005C4003 /* VIewControllers */,
+				048442F0212EB5A3005C4003 /* Views */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		048442EC212EB5A3005C4003 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0484430F212EB723005C4003 /* MainViewController.h */,
+				0484430E212EB723005C4003 /* MainViewController.m */,
+				0484430D212EB723005C4003 /* MainViewController.xib */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		048442F0212EB5A3005C4003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04844305212EB71A005C4003 /* MyCalendar.h */,
+				04844300212EB71A005C4003 /* MyCalendar.m */,
+				04844302212EB71A005C4003 /* MyCollectionViewCell.h */,
+				04844306212EB71A005C4003 /* MyCollectionViewCell.m */,
+				04844301212EB71A005C4003 /* MyCollectionViewCell.xib */,
+				04844303212EB71A005C4003 /* CalendarDateView.h */,
+				04844304212EB71A005C4003 /* CalendarDateView.m */,
+				04844307212EB71A005C4003 /* CalendarDateView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		048CB574211D31E400C96002 = {
+			isa = PBXGroup;
+			children = (
+				048CB57F211D31E400C96002 /* TimingAlarm */,
+				048CB598211D31E500C96002 /* TimingAlarmTests */,
+				048CB5A3211D31E500C96002 /* TimingAlarmUITests */,
+				048CB57E211D31E400C96002 /* Products */,
+				048CB676211D84FF00C96002 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048CB57E211D31E400C96002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048CB57D211D31E400C96002 /* TimingAlarm.app */,
+				048CB595211D31E500C96002 /* TimingAlarmTests.xctest */,
+				048CB5A0211D31E500C96002 /* TimingAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048CB57F211D31E400C96002 /* TimingAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				048CB69E212427E200C96002 /* Categorys */,
+				048CB673211D7B0300C96002 /* Const */,
+				048CB5B9211D34F700C96002 /* Base */,
+				048CB5B4211D349600C96002 /* Main */,
+				048CB5BA211D34F700C96002 /* Tools */,
+				048CB580211D31E400C96002 /* AppDelegate.h */,
+				048CB581211D31E400C96002 /* AppDelegate.m */,
+				048CB589211D31E500C96002 /* Assets.xcassets */,
+				048CB58B211D31E500C96002 /* LaunchScreen.storyboard */,
+				048CB58E211D31E500C96002 /* Info.plist */,
+				048CB58F211D31E500C96002 /* main.m */,
+			);
+			path = TimingAlarm;
+			sourceTree = "<group>";
+		};
+		048CB598211D31E500C96002 /* TimingAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				048CB599211D31E500C96002 /* TimingAlarmTests.m */,
+				048CB59B211D31E500C96002 /* Info.plist */,
+			);
+			path = TimingAlarmTests;
+			sourceTree = "<group>";
+		};
+		048CB5A3211D31E500C96002 /* TimingAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048CB5A4211D31E500C96002 /* TimingAlarmUITests.m */,
+				048CB5A6211D31E500C96002 /* Info.plist */,
+			);
+			path = TimingAlarmUITests;
+			sourceTree = "<group>";
+		};
+		048CB5B4211D349600C96002 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				048442EB212EB5A3005C4003 /* Calendar */,
+				048CB6952124212600C96002 /* Alarm */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		048CB5B9211D34F700C96002 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				048CB5BB211D353200C96002 /* BaseViewController.h */,
+				048CB5BC211D353200C96002 /* BaseViewController.m */,
+				048442E9212E9F3F005C4003 /* MyTabBar.h */,
+				048442E8212E9F3F005C4003 /* MyTabBar.m */,
+				048442E0212E9D1F005C4003 /* MyTabBarViewController.h */,
+				048442E1212E9D1F005C4003 /* MyTabBarViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		048CB5BA211D34F700C96002 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				043D834121256A66006BA773 /* MyCalendarManage.h */,
+				043D834021256A66006BA773 /* MyCalendarManage.m */,
+				043D833D21255947006BA773 /* MyDateSecurity.h */,
+				043D833E21255947006BA773 /* MyDateSecurity.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		048CB673211D7B0300C96002 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				048CB674211D7B1800C96002 /* BaseConst.h */,
+				048CB675211D7BEA00C96002 /* TimingAlarm.pch */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		048CB676211D84FF00C96002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048CB677211D84FF00C96002 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		048CB6952124212600C96002 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				04A74E01212FFDB900B6BC5D /* Models */,
+				048CB6972124212600C96002 /* ViewControllers */,
+				048CB6982124212600C96002 /* Views */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		048CB6972124212600C96002 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				048442E4212E9E90005C4003 /* AlarmViewController.h */,
+				048442E3212E9E90005C4003 /* AlarmViewController.m */,
+				048442E5212E9E90005C4003 /* AlarmViewController.xib */,
+				04844312212EC189005C4003 /* ShowAlarmViewController.h */,
+				04844313212EC189005C4003 /* ShowAlarmViewController.m */,
+				04844314212EC189005C4003 /* ShowAlarmViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		048CB6982124212600C96002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				048CB6992124214C00C96002 /* AlarmAlterView.h */,
+				048CB69A2124214C00C96002 /* AlarmAlterView.m */,
+				048CB69C2124215600C96002 /* AlarmAlterView.xib */,
+				048442D8212C00D5005C4003 /* SleepCycleView.h */,
+				048442D9212C00D5005C4003 /* SleepCycleView.m */,
+				048442DB212C00DF005C4003 /* SleepCycleView.xib */,
+				04A74DF1212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.h */,
+				04A74DF2212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.m */,
+				04A74DF3212FD3E200B6BC5D /* ShowAlarmTableViewCell.xib */,
+				04A74DF6212FD66700B6BC5D /* ShowAlarmOneTableViewCell.h */,
+				04A74DF7212FD66700B6BC5D /* ShowAlarmOneTableViewCell.m */,
+				04A74DF8212FD66700B6BC5D /* ShowAlarmOneTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		048CB69E212427E200C96002 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				048CB69F212427E200C96002 /* UIView+.h */,
+				048CB6A0212427E200C96002 /* UIView+.m */,
+				048CB6A2212433BF00C96002 /* CALayer+XibBorderColor.h */,
+				048CB6A3212433BF00C96002 /* CALayer+XibBorderColor.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		04A74E01212FFDB900B6BC5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A74E02212FFDB900B6BC5D /* DataSingleton.h */,
+				04A74E03212FFDB900B6BC5D /* DataModel.h */,
+				04A74E04212FFDB900B6BC5D /* DataModel.m */,
+				04A74E05212FFDB900B6BC5D /* DataSingleton.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048CB57C211D31E400C96002 /* TimingAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048CB5A9211D31E500C96002 /* Build configuration list for PBXNativeTarget "TimingAlarm" */;
+			buildPhases = (
+				048CB579211D31E400C96002 /* Sources */,
+				048CB57A211D31E400C96002 /* Frameworks */,
+				048CB57B211D31E400C96002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimingAlarm;
+			productName = TimingAlarm;
+			productReference = 048CB57D211D31E400C96002 /* TimingAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048CB594211D31E500C96002 /* TimingAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048CB5AC211D31E500C96002 /* Build configuration list for PBXNativeTarget "TimingAlarmTests" */;
+			buildPhases = (
+				048CB591211D31E500C96002 /* Sources */,
+				048CB592211D31E500C96002 /* Frameworks */,
+				048CB593211D31E500C96002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048CB597211D31E500C96002 /* PBXTargetDependency */,
+			);
+			name = TimingAlarmTests;
+			productName = TimingAlarmTests;
+			productReference = 048CB595211D31E500C96002 /* TimingAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048CB59F211D31E500C96002 /* TimingAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048CB5AF211D31E500C96002 /* Build configuration list for PBXNativeTarget "TimingAlarmUITests" */;
+			buildPhases = (
+				048CB59C211D31E500C96002 /* Sources */,
+				048CB59D211D31E500C96002 /* Frameworks */,
+				048CB59E211D31E500C96002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048CB5A2211D31E500C96002 /* PBXTargetDependency */,
+			);
+			name = TimingAlarmUITests;
+			productName = TimingAlarmUITests;
+			productReference = 048CB5A0211D31E500C96002 /* TimingAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048CB575211D31E400C96002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					048CB57C211D31E400C96002 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					048CB594211D31E500C96002 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 048CB57C211D31E400C96002;
+					};
+					048CB59F211D31E500C96002 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 048CB57C211D31E400C96002;
+					};
+				};
+			};
+			buildConfigurationList = 048CB578211D31E400C96002 /* Build configuration list for PBXProject "TimingAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048CB574211D31E400C96002;
+			productRefGroup = 048CB57E211D31E400C96002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048CB57C211D31E400C96002 /* TimingAlarm */,
+				048CB594211D31E500C96002 /* TimingAlarmTests */,
+				048CB59F211D31E500C96002 /* TimingAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048CB57B211D31E400C96002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484430C212EB71B005C4003 /* CalendarDateView.xib in Resources */,
+				048CB58D211D31E500C96002 /* LaunchScreen.storyboard in Resources */,
+				048442E7212E9E90005C4003 /* AlarmViewController.xib in Resources */,
+				04844310212EB723005C4003 /* MainViewController.xib in Resources */,
+				04844309212EB71B005C4003 /* MyCollectionViewCell.xib in Resources */,
+				048CB58A211D31E500C96002 /* Assets.xcassets in Resources */,
+				04A74DFA212FD66700B6BC5D /* ShowAlarmOneTableViewCell.xib in Resources */,
+				048CB69D2124215600C96002 /* AlarmAlterView.xib in Resources */,
+				048442DC212C00DF005C4003 /* SleepCycleView.xib in Resources */,
+				04A74DF5212FD3E200B6BC5D /* ShowAlarmTableViewCell.xib in Resources */,
+				04844316212EC189005C4003 /* ShowAlarmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048CB593211D31E500C96002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048CB59E211D31E500C96002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048CB579211D31E400C96002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048CB590211D31E500C96002 /* main.m in Sources */,
+				04A74E06212FFDB900B6BC5D /* DataModel.m in Sources */,
+				048CB5BD211D353200C96002 /* BaseViewController.m in Sources */,
+				04A74DF9212FD66700B6BC5D /* ShowAlarmOneTableViewCell.m in Sources */,
+				048CB6A1212427E200C96002 /* UIView+.m in Sources */,
+				04844311212EB723005C4003 /* MainViewController.m in Sources */,
+				04844315212EC189005C4003 /* ShowAlarmViewController.m in Sources */,
+				04A74E07212FFDB900B6BC5D /* DataSingleton.m in Sources */,
+				043D833F21255947006BA773 /* MyDateSecurity.m in Sources */,
+				048442E2212E9D1F005C4003 /* MyTabBarViewController.m in Sources */,
+				048CB69B2124214C00C96002 /* AlarmAlterView.m in Sources */,
+				048442EA212E9F3F005C4003 /* MyTabBar.m in Sources */,
+				043D834221256A66006BA773 /* MyCalendarManage.m in Sources */,
+				048442DA212C00D5005C4003 /* SleepCycleView.m in Sources */,
+				048CB6A4212433BF00C96002 /* CALayer+XibBorderColor.m in Sources */,
+				04A74DF4212FD3E200B6BC5D /* ShowAlarmTwoTableViewCell.m in Sources */,
+				0484430A212EB71B005C4003 /* CalendarDateView.m in Sources */,
+				048442E6212E9E90005C4003 /* AlarmViewController.m in Sources */,
+				04844308212EB71B005C4003 /* MyCalendar.m in Sources */,
+				048CB582211D31E400C96002 /* AppDelegate.m in Sources */,
+				0484430B212EB71B005C4003 /* MyCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048CB591211D31E500C96002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048CB59A211D31E500C96002 /* TimingAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048CB59C211D31E500C96002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048CB5A5211D31E500C96002 /* TimingAlarmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048CB597211D31E500C96002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048CB57C211D31E400C96002 /* TimingAlarm */;
+			targetProxy = 048CB596211D31E500C96002 /* PBXContainerItemProxy */;
+		};
+		048CB5A2211D31E500C96002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048CB57C211D31E400C96002 /* TimingAlarm */;
+			targetProxy = 048CB5A1211D31E500C96002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048CB58B211D31E500C96002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048CB58C211D31E500C96002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048CB5A7211D31E500C96002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048CB5A8211D31E500C96002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048CB5AA211D31E500C96002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4BPVLCC7;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/TimingAlarm/TimingAlarm/Const/TimingAlarm.pch;
+				INFOPLIST_FILE = TimingAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.TimingAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		048CB5AB211D31E500C96002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4BPVLCC7;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/TimingAlarm/TimingAlarm/Const/TimingAlarm.pch;
+				INFOPLIST_FILE = TimingAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.TimingAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		048CB5AD211D31E500C96002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4BPVLCC7;
+				INFOPLIST_FILE = TimingAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.TimingAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimingAlarm.app/TimingAlarm";
+			};
+			name = Debug;
+		};
+		048CB5AE211D31E500C96002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4BPVLCC7;
+				INFOPLIST_FILE = TimingAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.TimingAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimingAlarm.app/TimingAlarm";
+			};
+			name = Release;
+		};
+		048CB5B0211D31E500C96002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4BPVLCC7;
+				INFOPLIST_FILE = TimingAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.TimingAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimingAlarm;
+			};
+			name = Debug;
+		};
+		048CB5B1211D31E500C96002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KV4BPVLCC7;
+				INFOPLIST_FILE = TimingAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.TimingAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimingAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048CB578211D31E400C96002 /* Build configuration list for PBXProject "TimingAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048CB5A7211D31E500C96002 /* Debug */,
+				048CB5A8211D31E500C96002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048CB5A9211D31E500C96002 /* Build configuration list for PBXNativeTarget "TimingAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048CB5AA211D31E500C96002 /* Debug */,
+				048CB5AB211D31E500C96002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048CB5AC211D31E500C96002 /* Build configuration list for PBXNativeTarget "TimingAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048CB5AD211D31E500C96002 /* Debug */,
+				048CB5AE211D31E500C96002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048CB5AF211D31E500C96002 /* Build configuration list for PBXNativeTarget "TimingAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048CB5B0211D31E500C96002 /* Debug */,
+				048CB5B1211D31E500C96002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048CB575211D31E400C96002 /* Project object */;
+}
